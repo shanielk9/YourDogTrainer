@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+     android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical"
+    android:id="@+id/relativeLayout">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/fill_details"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="30dp"
+        android:background="@drawable/layout_background_custom">
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColorHint="@color/lightBlack"
+            android:inputType="textPersonName"
+            android:fontFamily="@font/baloo"
+            android:id="@+id/name_edit_text"/>
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColorHint="@color/lightBlack"
+            android:inputType="phone"
+            android:fontFamily="@font/baloo"
+            android:id="@+id/phone_edit_text"/>
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColorHint="@color/lightBlack"
+            android:inputType="textEmailAddress"
+            android:fontFamily="@font/baloo"
+            android:id="@+id/email_edit_text"/>
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/dog_name"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:textColorHint="@color/lightBlack"
+            android:inputType="textPersonName"
+            android:id="@+id/dogsname_edit_text"/>
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/age"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:textColorHint="@color/lightBlack"
+            android:inputType="numberDecimal"
+            android:id="@+id/age_edit_text"/>
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/breed"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/baloo"
+            android:textColorHint="@color/lightBlack"
+            android:inputType="textPersonName"
+            android:id="@+id/breed_edit_text"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/continue_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_state_background"
+        android:fontFamily="@font/baloo"
+        android:padding="15dp"
+        android:textSize="18dp"
+        android:textColor="@drawable/button_state_txt_color"
+        android:shadowColor="#FDFFFFFF"
+        android:shadowRadius="8"
+        android:text="@string/continue_btn" />
+
+</LinearLayout>

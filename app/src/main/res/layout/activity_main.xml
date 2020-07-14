@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    android:id="@+id/title_layout">
+
+    <ImageView
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:src="@drawable/png_dog_feet"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/dog_feet_image"
+        android:background="@null"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="54dp" />
+
+    <Button
+        android:id="@+id/schedule_trainer_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/button_state_background"
+        android:fontFamily="@font/baloo"
+        android:paddingTop="4dp"
+        android:shadowColor="#EBFFFFFF"
+        android:shadowRadius="8"
+        android:padding="20dp"
+        android:text="@string/schedule"
+        android:textColor="@drawable/button_state_txt_color"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#D2FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/call_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/phone_icon_256" />
+
+        <TextView
+            android:id="@+id/call_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:fontFamily="@font/baloo"
+            android:paddingTop="4dp"
+            android:shadowColor="#FDFFFFFF"
+            android:shadowRadius="8"
+            android:text="@string/call_us"
+            android:textAllCaps="false"
+            android:textColor="@drawable/button_state_txt_color_red"
+            android:textSize="18dp" />
+
+
+        <ImageButton
+            android:id="@+id/add_to_contacts_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/contacts_icon_256" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/baloo"
+            android:paddingTop="4dp"
+            android:shadowColor="#FDFFFFFF"
+            android:shadowRadius="8"
+            android:text="@string/add_contact"
+            android:textAllCaps="false"
+            android:textColor="@drawable/button_state_txt_color_red"
+            android:textSize="18dp"
+            android:id="@+id/contacts_tv"/>
+    </LinearLayout>
+
+</LinearLayout>
+

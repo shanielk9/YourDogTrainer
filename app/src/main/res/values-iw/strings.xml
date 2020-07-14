@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מאלף הכלבים שלך</string>
+    <string name="schedule">הזמן מאלף</string>
+    <string name="call_us">חייג אלינו</string>
+    <string name="add_contact">הוסף לאנשי קשר</string>
+    <string name="fill_details">מלא את הפרטים</string>
+    <string name="name">שם מלא</string>
+    <string name="phone">טלפון</string>
+    <string name="email">אימייל</string>
+    <string name="age">גיל הכלב</string>
+    <string name="breed">גזע הכלב</string>
+    <string name="continue_btn">המשך</string>
+    <string name="dog_description">תיאור הכלב</string>
+    <string name="picture">"     צלם תמונה של הכלב שלך"</string>
+    <string name="video">"    צלם סרטון המתאר את התנהגות הכלב"</string>
+    <string name="chooseTime">בחר תאריך ושעה המתאימים לך לאילוף:</string>
+    <string name="date">בחר תאריך...</string>
+    <string name="time">בחר שעה...</string>
+    <string name="notes">במידת הצורך,  הוסף הערות למאלף:</string>
+    <string name="type_here">כתוב כאן... (מקסימום 100 תווים)</string>
+    <string name="training_details">פרטי פגישת האילוף:</string>
+    <string name="email_us">שלח לנו אימייל</string>
+    <string name="set_calendar">קבע תזכורת ביומן</string>
+    <string name="set_alarm">קבע התראה</string>
+    <string name="finish">סיים</string>
+    <string name="not_all_fields_init">אנא מלא את כל שדות החובה</string>
+    <string name="dog_name">שם הכלב</string>
+    <string name="capture_toast">אנא צלם והסרט את הכלב שלך</string>
+    <string name="date_toast">אנא מלא תאריך ושעה רצויים</string>
+    <string name="date_">תאריך</string>
+    <string name="hour_">שעה</string>
+    <string name="mail_subject">מאמן הכלבים שלך - פנייה מהאפליקציה</string>
+    <string name="mail_body">"הערות נוספות: "</string>
+    <string name="mail_body_thankyou">"תודה רבה, "</string>
+    <string name="cal_title">פגישת אילוף</string>
+    <string name="alarm_msg">הכן עצמך לפגישת האילוף!</string>
+    <string name="finish_msg">תודה רבה! בקשתך התקבלה, נתראה בקרוב!</string>
+    <string name="photo_msg">התמונה שלך נשמרה!</string>
+    <string name="video_msg">הוידאו שלך נשמר!</string>
+    <string name="play_video">נגן וידאו</string>
+</resources>

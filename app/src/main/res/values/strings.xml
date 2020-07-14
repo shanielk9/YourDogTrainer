@@ -1,0 +1,54 @@
+<resources>
+
+    <string-array name="ChooseTime">
+        <item>@string/time</item>
+        <item>08:00</item>
+        <item>10:00</item>
+        <item>12:00</item>
+        <item>14:00</item>
+        <item>16:00</item>
+        <item>18:00</item>
+    </string-array>
+
+    <string name="app_name">Your Dog Trainer</string>
+    <string name="schedule">Schedule trainer</string>
+    <string name="call_us">Call us</string>
+    <string name="add_contact">Add to contacts</string>
+    <string name="fill_details">Fill your details</string>
+    <string name="name">Full name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="age">dog\'s age</string>
+    <string name="breed">dog\'s breed</string>
+    <string name="continue_btn">Continue</string>
+    <string name="dog_description">Dog\'s description</string>
+    <string name="picture">Take a picture of your dog</string>
+    <string name="chooseTime">Please choose the time of your training:</string>
+    <string name="date">Choose date...</string>
+    <string name="time">Choose time...</string>
+    <string name="notes">If needed, add notes to the trainer:</string>
+    <string name="type_here">Type here... (100 characters max)</string>
+    <string name="training_details">Training session details:</string>
+    <string name="email_us">Send us email</string>
+    <string name="set_calendar">Add to calendar</string>
+    <string name="set_alarm">Set alarm</string>
+    <string name="finish">Finish</string>
+    <string name="telephone_action_call" translatable="false">17005555555</string>
+    <string name="not_all_fields_init">Please fill all the required fields</string>
+    <string name="dog_name">dog\'s name</string>
+    <string name="capture_toast">Please take both photo and video of your dog</string>
+    <string name="date_toast">Please fill both date and hour fields</string>
+    <string name="date_">date</string>
+    <string name="hour_">hour</string>
+    <string name="mail_addresse" translatable="false">YourDogTrainer@comp.co.il</string>
+    <string name="mail_subject">Your dog trainer - transferred from app</string>
+    <string name="mail_body">"Extra notes: "</string>
+    <string name="mail_body_thankyou">"Thank you, "</string>
+    <string name="cal_title">Dog training meeting</string>
+    <string name="alarm_msg">Get ready for your dog Training!</string>
+    <string name="finish_msg">Thank you! Your request has been accepted, see you soon!</string>
+    <string name="video">Take a video of your dog\'s behavior</string>
+    <string name="photo_msg">Your photo has been saved!</string>
+    <string name="video_msg">Your video has been saved!</string>
+    <string name="play_video">Play video</string>
+</resources>
