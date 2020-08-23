@@ -1,5 +1,8 @@
 # YourDogTrainer
-## Your Dog Trainer application for android, developed as part of Android course
+**Your Dog Trainer application for android, developed as part of Android course**
+
+The app provides a simple user interface, which allows you to schedule a meeting with your dog trainer.<br>
+You need to fill in the details of your dog, add pictures of him, and choose date and time for your meeting.
 
 **Screenshots:**
 
